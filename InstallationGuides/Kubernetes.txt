@@ -25,7 +25,7 @@ kubectl describe pod kubernetes-bootcamp-7dc9765bf6-gbkjw
 kubectl exec -ti $POD_NAME curl localhost:8080
 
 kubectl get services
-
+///
 kubectl expose deployment/kubernetes-bootcamp --port=8080 --target-port=8080 --type=NodePort
 
 kubectl describe services kubernetes-bootcamp
